@@ -20,14 +20,16 @@ $(document).ready(function(){
 				}
 
 				if( isOrange ){
-					$("body").css("background", "black");
-					$("body").css("color", "orange");
+					//$("body").css("background", "black");
+					//$("body").css("color", "orange");
 					isOrange = false;
 				}else{
-					$("body").css("background", "orange");
-					$("body").css("color", "black");
+					//$("body").css("background", "orange");
+					//$("body").css("color", "black");
 					isOrange = true;
 				}
+
+				$("body").append("<div class='droplet'></div>");
 					// ss++ means ss = ss + 1
 					// ss++; 
 
